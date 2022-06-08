@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">חדשות חמות</string>
+
+    <!--fragments titles-->
+    <string name="home_fragment_title">דף הבית - חדשות חמות</string>
+    <string name="favorite_fragment_title">מועדפים</string>
+    <string name="user_profile_fragment_title">פרופיל</string>
+    <string name="settings_fragment_title">הגדרות</string>
+    <string name="about_fragment_title">אודות</string>
+
+    <!--anonymousAcnt Fragment-->
+    <string name="btn_forgot_password">שכחת את הסיסמה?</string>
+    <string name="lbl_forgot_password">שכחת סיסמה?</string>
+    <string name="forgot_password_msg">אנחנו רק צריכים את כתובת המייל שלך לשלוח לך הוראות לאיפוס סיסמה </string>
+    <string name="hint_email">Email</string>
+    <string name="btn_reset_password">אפס סיסמה</string>
+    <string name="btn_back">-<![CDATA[<< חזור]]></string>
+    <string name="email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="action_sign_in_short">הירשם</string>
+    <string name="btn_link_to_login">כבר רשום? היכנס!</string>
+
+    <!--nav bar header-->
+    <string name="nav_header_title">ברוכים הבאים</string>
+    <string name="nav_header_subtitle">אתה מחובר כרגע כ: אורח</string>
+
+    <!--sign in Fragment-->
+    <string name="btn_login">היכנס</string>
+    <string name="btn_link_to_register">עדיין לא נרשת? זה הזמן להירשם. לחץ כאן</string>
+    <string name="minimum_password">סיסמה קצרה מידי, הכנס סיסמה עם מינימום 6 תווים</string>
+    <string name="auth_failed">הזיהוי נכשל, בדוק את כתובת המייל והסיסמה או בצע רישום</string>
+
+    <!--spinner drop-down list-->
+    <string name="edit_profile_title">ערוך פרופיל</string>
+    <string name="inbox_title">תיבת דואר ניכנס</string>
+    <string name="disconnect_title">התנתק</string>
+    <string name="manage_accounts_title">החלף חשבון</string>
+    <string name="delete_account_title">מחק חשבון</string>
+</resources>

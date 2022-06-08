@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">News Application</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">
+        android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+
+    <string name="notifications_admin_channel_name">Global channel</string>
+    <string name="notifications_admin_channel_description">Notifications sent from the app admin</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">welcome</string>
+    <string name="nav_header_subtitle">you\'re nickname is: guest</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="about_text">אפליקציה זו נבנתה מתוך מטרה להתנסות בשיווק וקידום נכס דיגיטלי בפלטפורמות השונות. השאיפה היא להעלות את כל הקוד לopen source  בגיטאב ולתרום לקהילה. על מנת שנוכל שמקסם את יעילות הביצועים, להקטין את נפח האחסון הנדרש עבור אפליקציה ולהגיע לאחוזי חשיפה טובים עבור קהלים שונים נשמח מאד לשמוע ממכם אם תכתבו לנו חוות דעת.  פרטים ליצירת קשר:  עיצוב גרפי: בתאל אביטן  תכנות ושיווק: יפה חיררי yharari19@gmail.com  0587816650 כי ביחד אנחנו יכולים לצמוח ולהצמיח, ליצור את הדבר הגדול הבא, יש מהאין </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="facebook_app_id">603387746778556</string>
+
+    <string name="fb_login_protocol_scheme">fb603387746778556</string>
+    <string name="MyTextView2">מה למדנו היום?:
+1. כיצד ניתן ליצורnotifications  כדי לשלוח ולקבל התראות של חדשות בזמן אמת במצב שהאפליקציה רצה בfront  וגם בback
+2. להקים חיבור (ערוץ תקשורת) בין הצד לקוח - שרת (מחלקות: MyFirebaseMessagingService, MyFirebaseMessagingService)
+3. לשלוח בקשות post  ללקוח דרך התוסף כרום ולשלוח בקשות get  דרך firebase.
+חשוב: הפורמט לשליחת בקשות post ללקוח (client) הוא כזה
+https://gcm-http.googleapis.com/gcm/send
+Content-Type:application/json
+Authorization:key=AIzaSyZ-1u…0GBYzPu7Udno5aA
+
+{ "data": {
+    "score": "5x1",
+    "time": "15:10"
+  },
+  "to" : "APA91bHun4MxP5egoKMwt2KZFBaFUH-1RYqx..."
+}
+</string>
+    <string name="setting_frag"><![CDATA[מסך הגדרות:  מסך זה עדיין בשלבי בניה..  מה יכיל מסך זה? 1. בחירת תדירות ההתראות על חדשות חמות בזמן אמת  2. אופציה להחליף יוזר (פרופיל משתמש) - אולי יהיה במסך זה יכול להיות שאעשה את זה כבר ממסך פרופיל \t 3. אפשרות לבחור ב: \"הגב בצורה אנונימית\" (כדי שבאופן זמני יהיה אפשרות לכתוב ביקורת על כתבה באופן כזה שאינך מזוהה)  - אולי אממש את זה כבר בחלק של הכתיבה עצמה אם יהי הV אז יהיה אנונימי ואם לא אז לא (נראה לי רעיון יותר פשוט ליישום ונוח למשתמש)  ועוד כלמיני.. (אולי כבר לא צריך את המסך הזה? מממ) ]]></string>
+    <string name="setting_frag2"> אבל בינתיים עד שכל זה יקרה.. </string>
+    <string name="setting_frag3">https://www.youtube.com/watch?v=oc4WUtNafD8&amp;start_radio=1&amp;list=RDoc4WUtNafD8 "</string>
+
+    <string name="setting_frag4"> כי הוא יוצר, זמר מדהים!!!!</string>
+
+    <!--anonymousAcnt Fragment-->
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="hint_email">Email</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="action_sign_in_short">Register</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+
+    <!--sign in Fragment-->
+    <string name="btn_login">SIGN IN</string>
+    <string name="btn_link_to_register">still not register yet? click me to sign up</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+
+    <!--fragments titles-->
+    <string name="home_fragment_title">Home page - Hot News</string>
+    <string name="favorite_fragment_title">Favorite</string>
+    <string name="user_profile_fragment_title">Profile</string>
+    <string name="settings_fragment_title">Settings</string>
+    <string name="about_fragment_title">About</string>
+    <string name="nick_name_edit">Nick Name</string>
+
+    <!--spinner drop-down list-->
+    <string name="edit_profile_title">Edit profile</string>
+    <string name="inbox_title">Inbox</string>
+    <string name="disconnect_title">Disconnect</string>
+    <string name="manage_accounts_title">Replace account</string>
+    <string name="delete_account_title">Delete account</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-4010545542405638/4592593117</string>
+    <string name="private_policy_title">Private Policy</string>
+
+</resources>

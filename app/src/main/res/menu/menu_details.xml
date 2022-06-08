@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".DetailsActivity">
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/share_icon"
+        android:title="Share"
+        app:showAsAction="always"
+        tools:ignore="AppCompatResource"/>
+    <item
+        android:id="@+id/add_to_favorite"
+        android:icon="@drawable/baseline_favorite_border_white_18dp"
+        android:title="Add to favorite"
+        android:checkable="true"
+        app:showAsAction="always"/>
+
+</menu>

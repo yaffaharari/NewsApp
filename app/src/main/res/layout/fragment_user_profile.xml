@@ -1,0 +1,60 @@
+<layout xmlns:tools="http://schemas.android.com/tools"
+   >
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:id="@+id/user_profile_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#bfbfbf"
+        tools:context=".UserProfileFragment"
+        >
+
+        <LinearLayout
+            android:id="@+id/btn_holder"
+            android:layout_height="wrap_content"
+            style="@style/FirebaseUI.AuthMethodPicker.ButtonHolder"
+            tools:background="#bfbfbf"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+<!--tools:layout_height="250dp"-->
+
+            <!-- TODO: Update blank fragment layout  btn_local_register-->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_local_register"
+                android:layout_marginBottom="15dp"
+                style="@style/FirebaseUI.Button.AccountChooser.EmailButton"
+                android:text="@string/fui_sign_in_with_email"
+                tools:ignore="MissingClass" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_facebook_register"
+                android:layout_marginBottom="15dp"
+                style="@style/FirebaseUI.Button.AccountChooser.FacebookButton"
+                android:text="@string/fui_sign_in_with_facebook"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_google_register"
+                android:layout_marginBottom="15dp"
+                style="@style/FirebaseUI.Button.AccountChooser.GoogleButton"
+                android:text="@string/fui_sign_in_with_google"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_twitter_register"
+                android:layout_marginBottom="15dp"
+                style="@style/FirebaseUI.Button.AccountChooser.TwitterButton"
+                android:text="@string/fui_sign_in_with_twitter"/>
+
+            <!--     <com.facebook.login.widget.LoginButton
+                     android:id="@+id/btn_facebook_register"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center_horizontal"
+                     android:layout_marginBottom="30dp"
+                     android:layout_marginTop="30dp"/>-->
+
+        </LinearLayout>
+    </FrameLayout>
+</layout>

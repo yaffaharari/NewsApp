@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <androidx.core.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".DetailsActivity"
+        tools:showIn="@layout/activity_details">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="1"
+            >
+
+            <TextView
+                android:id="@+id/article_title"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_gravity="center|fill"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:id="@+id/published_date"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_gravity="center|fill"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:id="@+id/source_name"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_gravity="center|fill"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:id="@+id/author"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_gravity="center|fill"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:id="@+id/short_description"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_gravity="center|fill"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/goto_full_article_btn"
+                android:text="לכתבה המלאה"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"/>
+
+        </GridLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>
